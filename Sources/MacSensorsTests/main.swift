@@ -1,2 +1,2 @@
-check(true, "smoke")
+runSMCDecodeTests()
 finish()
