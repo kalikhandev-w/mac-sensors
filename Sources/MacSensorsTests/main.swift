@@ -1,0 +1,2 @@
+check(true, "smoke")
+finish()
