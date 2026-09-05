@@ -1,3 +1,4 @@
 runSMCDecodeTests()
 runMetricsTests()
+runFormatTests()
 finish()
