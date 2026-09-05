@@ -1,2 +1,3 @@
 runSMCDecodeTests()
+runMetricsTests()
 finish()
