@@ -1,3 +1,4 @@
+import AppKit
 import Foundation
 import MacSensorsCore
 
@@ -10,4 +11,7 @@ if CommandLine.arguments.contains("--dump") {
     exit(0)
 }
 
-print("MacSensors: run with --dump (UI arrives in the next task)")
+let app = NSApplication.shared
+app.setActivationPolicy(.accessory)
+let controller = StatusBarController()
+app.run()
